@@ -15,10 +15,10 @@ complex::complex(int x,int y){
 }
 
 int main(){
-    //explicit call
+    //implicit call
     complex c1(7,8);
     c1.printNumber();
-    //implicit call
+    //explicit call
     complex c2 = complex(2,5);
     c2.printNumber();
 return 0;
